@@ -1,0 +1,1 @@
+total_price * (3 / 100)
