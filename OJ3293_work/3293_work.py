@@ -12,12 +12,11 @@ if lines:
 else:
     max_length = 0
 
-top_border = "*" * (max_length + 4)
-print(top_border)
+top_last = "*" * (max_length + 4)
+print(top_last)
 
 for line in lines:
     padded_line = line.ljust(max_length)
     print("* " + padded_line + " *")
 
-bottom_border = "*" * (max_length + 4)
-print(bottom_border)
+print(top_last)
